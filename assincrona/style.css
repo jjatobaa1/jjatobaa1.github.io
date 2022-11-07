@@ -1,0 +1,14 @@
+#cb11{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+
+
+}
+
+#title{
+    font-family: Poppins;
+    margin-left: 30%;
+}
+
