@@ -14,7 +14,7 @@ function nextImg(img){
 }
 
 window.onload = ()=>{
-    for(let i=0; i<=5; i++){    
+    for(let i=0; i<=3; i++){    
         nextImg( img++ % (max));
     }
 }
