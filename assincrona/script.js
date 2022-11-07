@@ -1,4 +1,4 @@
-let img = 1;
+let img = 0;
 const max = 5;
 const cb11 = document.getElementById("cb11");
 
@@ -22,7 +22,6 @@ window.onload = ()=>{
 cb11.onscroll = ()=>{
     let largura = document.body.scrollWidth; 
     let scrollPoint = window.scrollX + window.innerWidth;
-    //let scrollPoint = window.scrollY; //início da página
     if(scrollPoint >= largura){
         nextImg( img++ % (max+1));
     }   
