@@ -20,5 +20,10 @@ window.onload = ()=>{
 }
 
 cb11.onscroll = ()=>{
-    nextImg( img++ % (max+1));
+    let largura = document.body.scrollWidth; 
+    let scrollPoint = window.scrollX + window.innerWidth;
+    //let scrollPoint = window.scrollY; //início da página
+    if(scrollPoint >= largura){
+        nextImg( img++ % (max+1));
+    }   
 }
